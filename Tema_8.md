@@ -32,7 +32,7 @@ print(f" Im driving {my_car.make} {my_car.model}")
 
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_1/pic/Lab1_1.png "8.1")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/lab1.png "8.1")
 ### Выводы.
 Создаем класс с конструктором, объявляем переменные в конструкторе. Создаем экземпляр класса с атрибутами и выводим их в консоль.
 
@@ -52,7 +52,7 @@ my_car = Car("Toyota", "Corolla")
 my_car.drive()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_1/pic/Lab1_2.png "8.2")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/lab2.png "8.2")
 ### Выводы.
 Реализован класс Car с конструктором, методом drive. Далее реализуем экземпляр класса Car в переменной my_car, передаем атрибуты класса и вызываем метод drive().
 
@@ -84,7 +84,7 @@ my_electric_car.charge()
 ```
 
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_1/pic/Lab1_3.png "8.3")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/lab3.png "8.3")
 
 ### Выводы.
 Здесь реализуем родительский класс Car, дочерний класс ElectricCar. Далее наглядно показываем метод наследования между классами.
@@ -106,7 +106,7 @@ print(my_car._make)
 my_car.drive()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_1/pic/Lab1_4.png "8.4")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/lab4.png "8.4")
 ### Выводы.
 Реализуем класс Car. В нем находится конструктор с атрибутами двух типов - защищенный и приватный. Далее получаем доступ к защищенному атрибуту с помощью экземпляра класса и вызываем метод drive(). Наглядная работа инкапсуляции.
 
@@ -137,7 +137,7 @@ for shape in shapes:
     print(shape.area())
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_1/pic/Lab1_5.png "8.5")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/lab5.png "8.5")
 ### Выводы.
 Наглядная работа полиморфизма в ООП. Создаем родительский класс Shape, в который помещаем пустой метод area. Далее реализуем два дочерних класса Rectangle и Circle, где переопределяем метод area. В конце выводим в консоль метод area у обоих классов с атрибутами.
 
@@ -157,7 +157,7 @@ weather_report = Weather("2024-05-01", 25)
 weather_report.report()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_4/pic/сам4.2.png "8.1")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/sam1.png "8.1")
 ### Выводы.
 Реализован класс Weather с атрибутами даты и температуры. Внутри класса есть метод прогноза погоды. Создаем экземпляр класса и вызываем метод report().
 
@@ -182,7 +182,7 @@ weather_report.report()
 weather_report.date_report()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_5/pic/sam5.2.png "8.2")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/sam2.png "8.2")
 ### Выводы.
 К классу, определенному заданием выше, добавлен метод date_report, указывающий дату, исходя из атрибута экзмепляра класса.
 
@@ -215,7 +215,7 @@ weather_report = Forecast("June 1", 70, "sunny")
 weather_report.forecast_report()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_5/pic/sam5.3.png "8.3")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/sam3.png "8.3")
 ### Выводы.
 Реализовано наследование, путем дочернего класса Forecast.
 
@@ -249,7 +249,7 @@ weather_report = Forecast("June 1", 70, "sunny")
 weather_report.forecast_report()
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_5/pic/sam5.4.png "8.4")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/sam4.png "8.4")
 ### Выводы.
 Реализована инкапсуляция. Атрибуты date и degrees переведены в статус защищенных атрибутов, а forecast - в приватный.
 
@@ -284,7 +284,7 @@ for figure in figures:
     print(figure.perimetr())
 ```
 ### Результат.
-![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_5/pic/sam5.5.png "8.5")
+![Изображение](https://github.com/Burushva/Software_engineering/blob/Тема_8/pic/sam5.png "8.5")
 ### Выводы.
 Работа полиморфизма на примере родительского класса Figure с методом perimetr и переопределение его в дочерних классах.
 
